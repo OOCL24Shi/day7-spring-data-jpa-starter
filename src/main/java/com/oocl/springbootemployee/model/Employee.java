@@ -13,6 +13,7 @@ public class Employee {
     private Gender gender;
     private Double salary;
     private Boolean isActive = true;
+    private Integer companyId;
 
     public Employee(Integer id, String name, Integer age, Gender gender, Double salary) {
 
@@ -26,6 +27,9 @@ public class Employee {
     public Employee() {
     }
 
+    public Integer getCompanyId() {
+        return companyId;
+    }
     public Integer getId() {
         return id;
     }
