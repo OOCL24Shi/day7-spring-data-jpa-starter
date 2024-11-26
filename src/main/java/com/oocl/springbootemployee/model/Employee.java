@@ -24,6 +24,13 @@ public class Employee {
         this.salary = salary;
     }
 
+//    public Employee(String name, Integer age, Gender gender, Double salary) {
+//        this.name = name;
+//        this.age = age;
+//        this.gender = gender;
+//        this.salary = salary;
+//    }
+
     public Employee() {
     }
 
